@@ -1,3 +1,4 @@
+#ifndef ARDUINO
 /* wave.c
  *
  * MS Wave files store data 'little endian' sytle. These functions will only
@@ -268,3 +269,5 @@ int read_samples(int16_t *sample_buffer, int frame_size, FILE *file) {
 int wave_get(int16_t *buffer, wave_t *wave, int samp_per_pass) {
   return read_samples(buffer, samp_per_pass * wave->channels, wave->file);
 }
+
+#endif

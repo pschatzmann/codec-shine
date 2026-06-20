@@ -11,7 +11,7 @@ How to use?
 The encoding API should be quite straight forward:
 
 ```c
-#include <shine/layer3.h>
+#include <shine/layer3.h>  // or <codec-shine.h>
   
 (...)
 

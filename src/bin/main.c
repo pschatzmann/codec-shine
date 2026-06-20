@@ -13,6 +13,7 @@
  * Jan 2, 2006 P.Roberts
  *
  */
+#ifndef ARDUINO
 
 /* Global headers. */
 #include <stdio.h>
@@ -235,3 +236,5 @@ int main(int argc, char **argv) {
 
   return 0;
 }
+
+#endif

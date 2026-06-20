@@ -36,7 +36,9 @@
 
 /* #define DEBUG if you want the library to dump info to stdout */
 
+#ifndef PI
 #define PI 3.14159265358979
+#endif
 #define PI4 0.78539816339745
 #define PI12 0.26179938779915
 #define PI36 0.087266462599717
