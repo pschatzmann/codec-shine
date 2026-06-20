@@ -2,6 +2,7 @@
 #define LAYER3_H
 
 #include <stdint.h>
+#include "types.h"
 
 /* This is the struct used to tell the encoder about the input PCM */
 

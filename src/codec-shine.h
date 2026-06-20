@@ -5,7 +5,6 @@
 extern "C"{
 #endif 
 
-#include "lib/types.h"
 #include "lib/layer3.h"
 
 #ifdef __cplusplus
