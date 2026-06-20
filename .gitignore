@@ -86,3 +86,4 @@ shine-*.tar.gz
 *.mp3
 node_modules
 build/
+.vscode/
