@@ -3,6 +3,7 @@ Shine: fast fixed-point mp3 encoding
 
 [![Arduino Library](https://img.shields.io/badge/Arduino-Library-blue.svg)](https://www.arduino.cc/reference/en/libraries/)
 [![IDF Component](https://img.shields.io/badge/IDF-Component-blue.svg)](https://github.com/pschatzmann/codec-shine)
+[![CMake](https://img.shields.io/badge/CMake-Supported-blue.svg)](https://cmake.org/)
 
 [shine](https://github.com/savonet/shine) is a blazing fast mp3 encoding library implemented in 
 fixed-point arithmetic. The library can thus be used to perform super fast mp3 encoding on architectures
